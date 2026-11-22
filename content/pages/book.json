@@ -1,0 +1,531 @@
+{
+  "id": "pg_pccta3f6fk",
+  "title": "The Book",
+  "slug": "book",
+  "seo": {
+    "title": "Power With by Sophia Life · The Book",
+    "description": "Power With: The Relational Foundation of Lasting Influence. Four parts and ten principles. Publishing January 2027 in paperback and Kindle.",
+    "image": "media/2026/10/book-cover-front-ec7h.jpg"
+  },
+  "sections": [
+    {
+      "id": "sec_dxj78nkw2g",
+      "preset": "component/pw-sales-hero@1",
+      "label": "Book hero",
+      "anchor": "formats",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "dark",
+        "padding": {
+          "d": "none",
+          "m": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_z4jr6va1mj",
+          "type": "component/pw-sales-hero",
+          "v": 1,
+          "fields": {
+            "body": "Power With is for leaders who want strength and closeness held together. Four parts and ten principles, each principle closing with a single action you can begin today.",
+            "formats": [
+              {
+                "buttons": [
+                  {
+                    "label": "AMAZON",
+                    "link": {
+                      "anchor": "release",
+                      "page": "pg_pccta3f6fk",
+                      "type": "page"
+                    },
+                    "primary": true
+                  }
+                ],
+                "name": "PAPERBACK",
+                "note": "",
+                "price": "$21.95 [TO CONFIRM]"
+              },
+              {
+                "buttons": [
+                  {
+                    "label": "AMAZON KINDLE",
+                    "link": {
+                      "anchor": "release",
+                      "page": "pg_pccta3f6fk",
+                      "type": "page"
+                    },
+                    "primary": false
+                  }
+                ],
+                "name": "KINDLE",
+                "note": "",
+                "price": "[PRICE]"
+              },
+              {
+                "buttons": [],
+                "name": "AUDIOBOOK",
+                "note": "Readers on the release list hear first.",
+                "price": "COMING AFTER RELEASE"
+              }
+            ],
+            "headline": "Power and closeness, held together.",
+            "kicker": "THE BOOK · JANUARY 2027",
+            "cover": {
+              "alt": "The cover of Power With by Sophia Life.",
+              "height": 1200,
+              "mediaId": "med_ec7hrrg7y2",
+              "src": "media/2026/10/book-cover-front-ec7h.jpg",
+              "width": 800
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_gj5b9h4855",
+      "preset": "component/pw-measures@1",
+      "label": "Numbered measures",
+      "anchor": "inside",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "padding": {
+          "d": "none",
+          "m": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_stq0d1m0rh",
+          "type": "component/pw-measures",
+          "v": 1,
+          "fields": {
+            "closing": "Read it through once. Then return to the principles one at a time.",
+            "ground": "bone",
+            "headline": "Four parts. Ten principles.",
+            "intro": "Parts One and Two are the diagnosis. Parts Three and Four are the practice.",
+            "items": [
+              {
+                "text": "Part One examines the drive for power, where it comes from and how it takes hold."
+              },
+              {
+                "text": "Part Two makes the case that the strength of your relationships is the most accurate measure of success."
+              },
+              {
+                "text": "Part Three gives the ten relational principles that make power with possible in daily life."
+              },
+              {
+                "text": "Part Four extends these capacities into leadership, organizations and the systems you are responsible for."
+              }
+            ],
+            "kicker": "INSIDE THE BOOK"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_zfm17hs84r",
+      "preset": "component/pw-measures@1",
+      "label": "Numbered measures",
+      "anchor": "measures",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "padding": {
+          "d": "none",
+          "m": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_3197h16f3d",
+          "type": "component/pw-measures",
+          "v": 1,
+          "fields": {
+            "closing": "These are the hardest measures there are.",
+            "ground": "oxblood",
+            "headline": "Success is measured in relationship.",
+            "intro": "Power With offers five measures. Read them slowly. Notice which one stays with you.",
+            "items": [
+              {
+                "text": "The safety people feel in your presence."
+              },
+              {
+                "text": "The willingness of others to tell you what is actually happening."
+              },
+              {
+                "text": "The quality of your attention when others speak."
+              },
+              {
+                "text": "Your willingness to repair when you have caused harm."
+              },
+              {
+                "text": "The depth of connection you sustain over time."
+              }
+            ],
+            "kicker": "A NEW MEASURE"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_m30y71k69w",
+      "label": "Release list",
+      "anchor": "release",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            7,
+            5
+          ],
+          "m": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "dark-accent",
+        "padding": {
+          "d": "xl",
+          "m": "lg"
+        }
+      },
+      "hidden": false,
+      "blocks": [
+        {
+          "id": "blk_xqc0z0w8tg",
+          "type": "heading",
+          "v": 1,
+          "column": 0,
+          "fields": {
+            "text": "Hear first when the book is released.",
+            "level": "h2",
+            "size": "auto",
+            "eyebrow": "THE RELEASE LIST"
+          },
+          "variant": "eyebrow-rule"
+        },
+        {
+          "id": "blk_wsn0zjd15y",
+          "type": "text",
+          "v": 1,
+          "column": 0,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Leave your email and Sophia will write the week Power With is released. The written spoken word piece comes with it, free."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "blk_71mees7anb",
+          "type": "newsletter",
+          "v": 1,
+          "column": 1,
+          "fields": {
+            "askName": true,
+            "placeholder": "you@example.com",
+            "buttonLabel": "TELL ME WHEN IT IS OUT",
+            "successMessage": "Almost there. Check your inbox to confirm, and the words will follow."
+          },
+          "variant": "stacked"
+        },
+        {
+          "id": "blk_jcr79cxdf6",
+          "type": "text",
+          "v": 1,
+          "column": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "preset": "small"
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Occasional letters from Sophia. Unsubscribe at any time."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_a7zy825che",
+      "label": "Release-week gift (hidden until release week)",
+      "anchor": "claim",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            7,
+            5
+          ],
+          "m": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "brand",
+        "padding": {
+          "d": "xl",
+          "m": "lg"
+        }
+      },
+      "hidden": true,
+      "blocks": [
+        {
+          "id": "blk_4831yc4m1g",
+          "type": "component/pw-claim-text",
+          "v": 1,
+          "column": 0,
+          "fields": {
+            "body": "A companion for your first reading. Power With asks a great deal of its reader. The Orientation helps you take it in and keep it close.",
+            "headline": "Buy in release week and receive the Orientation.",
+            "items": [
+              {
+                "text": "The framework on one page. Power, power over and power with."
+              },
+              {
+                "text": "The ten principles at a glance, with the practice from each."
+              },
+              {
+                "text": "How to read the book. Straight through once, then back to the principles one at a time."
+              },
+              {
+                "text": "The five measures of success, set as a reflection to return to."
+              },
+              {
+                "text": "The pause, the single practice beneath all ten."
+              }
+            ],
+            "kicker": "RELEASE-WEEK GIFT",
+            "listLabel": "INSIDE THE ORIENTATION"
+          }
+        },
+        {
+          "id": "blk_mxmj4xcfd5",
+          "type": "text",
+          "v": 1,
+          "column": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Order from Amazon in release week, then enter your order number. The Orientation arrives by email."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "blk_eyayps9eer",
+          "type": "form",
+          "v": 1,
+          "column": 1,
+          "fields": {
+            "form": {
+              "fields": [
+                {
+                  "label": "Name",
+                  "name": "name",
+                  "type": "text"
+                },
+                {
+                  "label": "Email",
+                  "name": "email",
+                  "required": true,
+                  "type": "email"
+                },
+                {
+                  "label": "Format",
+                  "name": "format",
+                  "options": [
+                    "Paperback",
+                    "Kindle"
+                  ],
+                  "type": "select"
+                },
+                {
+                  "label": "Amazon order number",
+                  "name": "order_number",
+                  "type": "text"
+                }
+              ],
+              "id": "frm_bnbqx6543v",
+              "name": "preorder-claim",
+              "notifyOwner": true,
+              "submitLabel": "CLAIM THE ORIENTATION",
+              "success": {
+                "message": "Thank you. Your claim is in, and the Orientation will arrive by email.",
+                "type": "message"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_j7mnrdvn4t",
+      "preset": "component/pw-links@1",
+      "label": "Two link blocks (Press and Essays)",
+      "anchor": "gift-and-bulk",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "dark",
+        "padding": {
+          "d": "none",
+          "m": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_tawgc0pxzs",
+          "type": "component/pw-links",
+          "v": 1,
+          "fields": {
+            "blocks": [
+              {
+                "body": "Give them the book, and keep a copy for yourself.",
+                "buttons": [
+                  {
+                    "label": "SEND A COPY",
+                    "link": {
+                      "anchor": "formats",
+                      "page": "pg_pccta3f6fk",
+                      "type": "page"
+                    }
+                  }
+                ],
+                "headline": "For the leader in your life.",
+                "label": "GIVE THIS BOOK"
+              },
+              {
+                "body": "Orders of ten or more receive tier pricing and a reading guide. [Tier pricing to set.]",
+                "buttons": [
+                  {
+                    "label": "ASK ABOUT BULK ORDERS",
+                    "link": {
+                      "anchor": "contact",
+                      "page": "pg_pccta3f6fk",
+                      "type": "page"
+                    }
+                  }
+                ],
+                "headline": "Copies for your leadership team.",
+                "label": "FOR TEAMS"
+              }
+            ],
+            "ground": "sand"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_fjqc54h14k",
+      "preset": "component/pw-faq@1",
+      "label": "Questions grid",
+      "anchor": "questions",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "dark",
+        "padding": {
+          "d": "none",
+          "m": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_tb5155j0rc",
+          "type": "component/pw-faq",
+          "v": 1,
+          "fields": {
+            "items": [
+              {
+                "answer": "January 2027, in the second week. [Exact date to confirm.] Join the release list to hear the day it opens.",
+                "question": "When is the book released?"
+              },
+              {
+                "answer": "Paperback and Kindle on Amazon at release.",
+                "question": "Where can I buy it?"
+              },
+              {
+                "answer": "Yes. An audiobook is planned after release, and readers on the list will hear first.",
+                "question": "Is there an audiobook?"
+              },
+              {
+                "answer": "Yes. Orders of ten or more receive tier pricing and a reading guide.",
+                "question": "Can my company order in bulk?"
+              }
+            ],
+            "kicker": "QUESTIONS"
+          }
+        }
+      ]
+    }
+  ]
+}

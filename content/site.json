@@ -17,28 +17,16 @@
     },
     {
       "type": "page",
-      "page": "pg_eq7h19rjgt",
-      "label": "THE AUTHOR",
-      "anchor": "author"
-    },
-    {
-      "type": "page",
-      "page": "pg_eq7h19rjgt",
-      "label": "FOR ORGANIZATIONS",
-      "anchor": "organizations"
-    },
-    {
-      "type": "page",
       "page": "pg_pccta3f6fk",
-      "label": "PRE-ORDER"
+      "label": "THE BOOK"
     },
     {
       "type": "button",
-      "label": "GET THE INTRODUCTION",
+      "label": "GET THE WORDS",
       "link": {
         "type": "page",
         "page": "pg_eq7h19rjgt",
-        "anchor": "introduction"
+        "anchor": "spoken-word"
       },
       "style": "primary"
     }
@@ -47,11 +35,13 @@
     "variant": "classic-left",
     "sticky": false,
     "transparentOnHero": false,
-    "mobileMenu": "fullscreen",
+    "mobileMenu": "dropdown",
     "colorTheme": "dark"
   },
   "footer": {
     "id": "sec_bnt8jt0x8w",
+    "label": "Footer",
+    "anchor": "contact",
     "layout": {
       "mode": "stack",
       "columns": {
@@ -67,17 +57,14 @@
       "align": "center"
     },
     "style": {
-      "colorTheme": "dark",
-      "background": {
-        "type": "color",
-        "color": "#0f0e0c"
-      }
+      "colorTheme": "dark-accent"
     },
     "blocks": [
       {
         "id": "blk_vwbppx615q",
         "type": "text",
         "v": 1,
+        "column": 0,
         "fields": {
           "content": {
             "type": "doc",
@@ -97,7 +84,6 @@
             ]
           }
         },
-        "column": 0,
         "style": {
           "align": {
             "d": "start",
@@ -109,13 +95,49 @@
         "id": "blk_37h6zza0es",
         "type": "text",
         "v": 1,
+        "column": 1,
         "fields": {
           "content": {
             "type": "doc",
             "content": [
               {
                 "type": "paragraph",
+                "attrs": {
+                  "preset": "eyebrow"
+                },
                 "content": [
+                  {
+                    "type": "text",
+                    "text": "CONTACT",
+                    "marks": [
+                      {
+                        "type": "link",
+                        "attrs": {
+                          "href": "#contact"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": " · "
+                  },
+                  {
+                    "type": "text",
+                    "text": "YOUTUBE",
+                    "marks": [
+                      {
+                        "type": "link",
+                        "attrs": {
+                          "href": "/#performance"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": " · "
+                  },
                   {
                     "type": "text",
                     "text": "INSTAGRAM",
@@ -134,12 +156,44 @@
                   },
                   {
                     "type": "text",
-                    "text": "PRE-ORDER",
+                    "text": "LINKEDIN",
                     "marks": [
                       {
                         "type": "link",
                         "attrs": {
-                          "href": "/preorder/"
+                          "href": "#contact"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": " · "
+                  },
+                  {
+                    "type": "text",
+                    "text": "SUBSTACK",
+                    "marks": [
+                      {
+                        "type": "link",
+                        "attrs": {
+                          "href": "/#author"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": " · "
+                  },
+                  {
+                    "type": "text",
+                    "text": "THE BOOK",
+                    "marks": [
+                      {
+                        "type": "link",
+                        "attrs": {
+                          "href": "/book/"
                         }
                       }
                     ]
@@ -160,15 +214,11 @@
                       }
                     ]
                   }
-                ],
-                "attrs": {
-                  "preset": "eyebrow"
-                }
+                ]
               }
             ]
           }
         },
-        "column": 1,
         "style": {
           "align": {
             "d": "center",
@@ -180,6 +230,7 @@
         "id": "blk_n00wq6g1nq",
         "type": "text",
         "v": 1,
+        "column": 2,
         "fields": {
           "content": {
             "type": "doc",
@@ -199,7 +250,6 @@
             ]
           }
         },
-        "column": 2,
         "style": {
           "align": {
             "d": "end",
@@ -207,8 +257,7 @@
           }
         }
       }
-    ],
-    "label": "Footer"
+    ]
   },
   "social": [
     {

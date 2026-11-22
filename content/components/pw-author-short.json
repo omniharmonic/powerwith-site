@@ -1,0 +1,89 @@
+{
+  "name": "pw-author-short",
+  "label": "Short author block",
+  "description": "Small portrait beside a label and one paragraph. Shows a placeholder until a portrait is uploaded.",
+  "version": 1,
+  "category": "power-with",
+  "fields": {
+    "body": {
+      "kind": "text",
+      "label": "Text",
+      "maxLength": 420,
+      "multiline": true
+    },
+    "ground": {
+      "kind": "select",
+      "label": "Section background",
+      "options": [
+        {
+          "value": "obsidian",
+          "label": "Ink (blue black)"
+        },
+        {
+          "value": "bone",
+          "label": "Linen (light)"
+        },
+        {
+          "value": "sand",
+          "label": "Sand (warm light)"
+        },
+        {
+          "value": "olive",
+          "label": "Spruce (deep green)"
+        },
+        {
+          "value": "oxblood",
+          "label": "Oxblood (deep red)"
+        },
+        {
+          "value": "umber",
+          "label": "Mulberry (plum)"
+        },
+        {
+          "value": "clay",
+          "label": "Clay (accent)"
+        },
+        {
+          "value": "sage",
+          "label": "Sage (grey green)"
+        }
+      ],
+      "display": "dropdown"
+    },
+    "label": {
+      "kind": "text",
+      "label": "Label",
+      "maxLength": 60
+    },
+    "placeholder": {
+      "kind": "text",
+      "label": "Placeholder text",
+      "optional": true,
+      "maxLength": 40
+    },
+    "portrait": {
+      "kind": "image",
+      "label": "Portrait",
+      "optional": true
+    }
+  },
+  "defaults": {
+    "body": "Sophia Life is an author, coach and organizational consultant. Power With is the synthesis of more than a decade of study and lived practice.",
+    "ground": "obsidian",
+    "label": "SOPHIA LIFE",
+    "placeholder": "[PORTRAIT]"
+  },
+  "template": "<div class=\"pw\" data-ground=\"{{ground}}\"><div class=\"pw__in\">{{#if portrait}}<div class=\"pw__pic\">{{image portrait sizes=\"200px\"}}</div>{{else}}<div class=\"pw__pic pw__ph\" role=\"img\" aria-label=\"Author portrait placeholder\">{{placeholder}}</div>{{/if}}<div class=\"pw__tx\"><p class=\"pw__kicker\">{{label}}</p><p class=\"pw__body\">{{body}}</p></div></div></div>",
+  "css": ":scope{display:block;width:100%}.pw{--bg:#01111D;--tx:#EDE6D8;--lb:#BBAFA3;--ph:#182727;--pt:#BBAFA3;background:var(--bg);color:var(--tx);font-family:var(--os-font-body)}.pw[data-ground=\"bone\"]{--bg:#E0D9CB;--tx:#01111D;--lb:#5E3A3C;--ph:#BBAFA3;--pt:#01111D}.pw[data-ground=\"sand\"]{--bg:#BBAFA3;--tx:#01111D;--lb:#5E3A3C;--ph:#E0D9CB;--pt:#01111D}.pw[data-ground=\"olive\"]{--bg:#182727;--ph:#01111D}.pw[data-ground=\"oxblood\"]{--bg:#321013;--ph:#5E3A3C;--pt:#EDE6D8}.pw[data-ground=\"umber\"]{--bg:#5E3A3C;--ph:#321013;--pt:#EDE6D8}.pw[data-ground=\"clay\"]{--bg:#8C5B46;--lb:#EDE6D8;--ph:#5E3A3C;--pt:#EDE6D8}.pw[data-ground=\"sage\"]{--bg:#7B8680;--tx:#01111D;--lb:#01111D;--ph:#BBAFA3;--pt:#01111D}\n.pw__in{box-sizing:content-box;max-width:1100px;margin:0 auto;padding:96px 32px;display:flex;flex-wrap:wrap;gap:48px;align-items:center}\n.pw__pic{flex:0 0 200px;height:240px;overflow:hidden;line-height:0}.pw__pic img{display:block;width:100%;height:100%;object-fit:cover}\n.pw__ph{background:var(--ph);display:flex;align-items:center;justify-content:center;text-align:center;font-family:var(--os-font-label);font-size:12px;letter-spacing:.2em;color:var(--pt);line-height:normal}\n.pw__tx{flex:999 1 420px;min-width:0}\n.pw__kicker{margin:0;font-family:var(--os-font-label);font-size:12px;letter-spacing:.32em;text-transform:uppercase;color:var(--lb)}\n.pw__body{margin:16px 0 0;font-size:21px;line-height:1.55}\n@media (max-width:767px){.pw__in{padding:56px 20px;gap:28px}.pw__kicker{font-size:12px;letter-spacing:.24em}.pw__body{font-size:19px}.pw__tx{flex-basis:100%}}",
+  "section": {
+    "width": "full",
+    "padding": {
+      "d": "none",
+      "m": "none"
+    }
+  },
+  "ai": {
+    "purpose": "Short author block.",
+    "whenToUse": "Landing pages."
+  }
+}

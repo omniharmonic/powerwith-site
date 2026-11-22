@@ -1,0 +1,151 @@
+{
+  "version": 1,
+  "brief": {
+    "about": "Phase 1 book hub for Power With: The Relational Foundation of Lasting Influence by Sophia Life, publishing January 2027. Its job is to build the release list. Phase 1 gift is the written spoken word piece from the INC performance; in December the gift becomes the book's Introduction; at release the Book page becomes the buying page.",
+    "audience": "High-achieving leaders, executives and founders who struggle relationally despite professional success, and the people who love them.",
+    "feeling": [
+      "literary",
+      "grounded",
+      "luminous",
+      "ceremonial"
+    ],
+    "notes": "Structure follows the Website Design Inspiration review (Nov 2026): a book hub modeled on Brene Brown's Strong Ground Hub, feeling from Azrya and KAVANA (atmosphere first, one sacred shape as hero, gold used sparingly, wide-tracked small lines), clarity from Priya Parker, whitespace from rupi kaur. One action repeated down the page. Removed in Nov 2026: What changes, Praise, For organizations, Watch read listen. Copy follows Sophia's voice rules."
+  },
+  "brand": {
+    "name": "Power With",
+    "voice": "Short declarative sentences. Plain, warm, precise. No em or en dashes as punctuation, no contractions, no exclamation marks, no colons introducing lists, no contrast-negation constructions, no if-then constructions.",
+    "guidelines": "Final palette Nov 2026: Ink #01111D replaces black. Gilt gold is an accent only, used for the sigil and the short rules on the darkest grounds, never as a ground or for body text, so it always reads as gold. Ten principles, never eleven. The mark is the hairline two-circle sigil. The wordmark POWER WITH is Montserrat caps, widely tracked."
+  },
+  "tokens": {
+    "colors": {
+      "bone": {
+        "value": "#EDE6D8",
+        "usage": "Text on every dark ground."
+      },
+      "clay": {
+        "value": "#8C5B46",
+        "role": "brand",
+        "usage": "Primary buttons with Bone text; opt-in bands; rules on light grounds."
+      },
+      "gilt": {
+        "value": "#C6A15B",
+        "role": "accent",
+        "usage": "Proposed gold, not yet final. Accent only: sigil and short rules on Ink, Spruce and Oxblood."
+      },
+      "ink": {
+        "value": "#01111D",
+        "role": "text",
+        "usage": "Primary dark ground; text on light grounds. Replaces black."
+      },
+      "linen": {
+        "value": "#E0D9CB",
+        "role": "background",
+        "usage": "Primary light ground. Name proposed for the former 'ivory'."
+      },
+      "mulberry": {
+        "value": "#5E3A3C",
+        "usage": "Warm plum ground; labels on light grounds. Name proposed for 'plum pink grey'."
+      },
+      "oxblood": {
+        "value": "#321013",
+        "usage": "Deep red ground for the pattern and quotes."
+      },
+      "rosewood": {
+        "value": "#95665A",
+        "usage": "Large decorative type and hairlines only (3.9:1 with Bone). Name proposed for 'dusty desert rose'."
+      },
+      "sage": {
+        "value": "#7B8680",
+        "usage": "Hairlines and icons on dark grounds; ground with Ink text."
+      },
+      "sand": {
+        "value": "#BBAFA3",
+        "usage": "Labels and secondary text on dark grounds; light ground for variety."
+      },
+      "spruce": {
+        "value": "#182727",
+        "usage": "Deep green ground for leadership and the book. Name proposed for 'dark green cyan'."
+      }
+    }
+  },
+  "rules": [
+    "Grounds: Ink, Linen, Mulberry, Oxblood, Clay, Spruce, Sand, Sage. Text, label, rule and button colors follow each ground's pairing.",
+    "Ink, Spruce and Oxblood grounds: text Bone, labels Sand, rules and sigil Gilt, primary button Clay with Bone text.",
+    "Mulberry ground: text Bone, labels Sand, rules Sand, primary button Bone with Ink text.",
+    "Linen ground: text Ink, labels Mulberry, rules Clay, primary button Ink with Bone text.",
+    "Clay ground: text, labels and rules Bone, primary button Ink with Bone text. Inputs Bone with Ink text.",
+    "Sand and Sage grounds: text Ink, labels Ink, rules Ink, primary button Ink with Bone text.",
+    "Gilt gold is an accent only. Never a ground, never body text, never on light grounds, where it stops looking like gold.",
+    "Rosewood is for large decorative type and hairlines only.",
+    "Display type is Cormorant Garamond 500, italic for closing lines, one italic line per section at most. Body is EB Garamond 400. Labels, buttons, navigation and the wordmark are Montserrat caps, widely tracked.",
+    "Never bold the serif. Weight comes from size.",
+    "Square corners. No gradients. The only shadow is the soft one on the book cover.",
+    "Atmosphere first: generous space around short lines. One action repeated down the page.",
+    "Motion is a gentle fade and the sigil drawing together on load, disabled under prefers-reduced-motion.",
+    "Meet WCAG 2.2 AA. Touch targets at least 44px."
+  ],
+  "components": {
+    "pw-author": {
+      "purpose": "Author block with portrait placeholder, paragraphs, names and buttons."
+    },
+    "pw-author-short": {
+      "purpose": "Small portrait with label and one paragraph."
+    },
+    "pw-benefits": {
+      "purpose": "Benefits section: headline, quote, two columns, ruled list and closing line."
+    },
+    "pw-cards": {
+      "purpose": "Card grids for Framework terms, Authority columns and Organizations."
+    },
+    "pw-claim-text": {
+      "purpose": "Text half of the Clay pre-order gift section, beside the claim form."
+    },
+    "pw-cta-head": {
+      "purpose": "Closing call-to-action head: optional sigil, headline or italic line, body, form label."
+    },
+    "pw-endorsements": {
+      "purpose": "Praise strip or grid. Built, hidden until real endorsements exist."
+    },
+    "pw-faq": {
+      "purpose": "Questions grid with answers visible."
+    },
+    "pw-hero-text": {
+      "purpose": "Home hero text: kicker, 96px title, italic subtitle, lead, body, form label caption."
+    },
+    "pw-landing-hero": {
+      "purpose": "Landing page hero text beside the opt-in card."
+    },
+    "pw-links": {
+      "purpose": "Hairline-topped link blocks with outline buttons (Press, Essays, Gift, Teams)."
+    },
+    "pw-measures": {
+      "purpose": "Numbered measures of success."
+    },
+    "pw-offer": {
+      "purpose": "Clay offer card with label, large sentence and button (Thank-you page)."
+    },
+    "pw-principles": {
+      "purpose": "Ten principles grid with sketch icons (to be replaced by brand-kit icons)."
+    },
+    "pw-quote": {
+      "purpose": "Full-width quote band on any of the six grounds."
+    },
+    "pw-sales-hero": {
+      "purpose": "Pre-order hero: cover, headline, text, formats with prices and retailer buttons."
+    },
+    "pw-statement": {
+      "purpose": "Large statement section (The Pattern)."
+    },
+    "pw-sticky-bar": {
+      "purpose": "Phone-only fixed bar linking to the Introduction opt-in."
+    }
+  },
+  "sources": [
+    {
+      "kind": "tokens",
+      "format": "dtcg",
+      "at": "2026-11-08T03:58:16.609Z"
+    }
+  ],
+  "updatedAt": "2026-11-22T08:59:10.353Z"
+}

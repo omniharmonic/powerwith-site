@@ -1,0 +1,261 @@
+{
+  "id": "pg_n7119843yq",
+  "title": "The Spoken Word",
+  "slug": "spoken-word",
+  "seo": {
+    "title": "The spoken word, free",
+    "description": "Power With began as a book and became a performance. Watch it, and receive the full written spoken word piece free as a PDF.",
+    "image": "media/2026/10/book-cover-front-ec7h.jpg"
+  },
+  "header": {
+    "hidden": true
+  },
+  "hidden": true,
+  "sections": [
+    {
+      "id": "sec_5srty3vk6z",
+      "preset": "component/pw-hero-text@2",
+      "label": "Hero with form",
+      "anchor": "top",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ],
+          "m": [
+            12
+          ]
+        },
+        "align": "center",
+        "width": "narrow"
+      },
+      "style": {
+        "colorTheme": "dark",
+        "padding": {
+          "d": "xl",
+          "m": "lg"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_swrjq0sk6s",
+          "type": "component/pw-hero-text",
+          "v": 2,
+          "fields": {
+            "align": "center",
+            "body": "Receive the full written piece, set as a PDF to read slowly and return to.",
+            "formLabel": "SEND IT TO MY INBOX",
+            "kicker": "FREE · FROM SOPHIA LIFE",
+            "lead": "Power With began as a book and became a performance.",
+            "showSigil": true,
+            "subtitle": "Power With, the spoken word",
+            "title": "Keep the words."
+          }
+        },
+        {
+          "id": "blk_36qy39zfvp",
+          "type": "newsletter",
+          "v": 1,
+          "column": 0,
+          "fields": {
+            "askName": false,
+            "placeholder": "you@example.com",
+            "buttonLabel": "SEND ME THE WORDS",
+            "successMessage": "Almost there. Check your inbox to confirm, and the words will follow.",
+            "note": "Free. Arrives in your inbox today. You will also hear first when the book is released."
+          },
+          "variant": "inline",
+          "style": {
+            "align": {
+              "d": "center"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_145nycdpvh",
+      "label": "The performance",
+      "anchor": "performance",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ],
+          "m": [
+            12
+          ]
+        },
+        "align": "center",
+        "width": "narrow"
+      },
+      "style": {
+        "colorTheme": "dark-accent",
+        "padding": {
+          "d": "xl",
+          "m": "lg"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_t6r99pjbnr",
+          "type": "heading",
+          "v": 1,
+          "fields": {
+            "text": "First performed at the Independent National Convention.",
+            "level": "h2",
+            "size": "h3",
+            "eyebrow": "THE PERFORMANCE"
+          },
+          "variant": "eyebrow-rule",
+          "style": {
+            "align": {
+              "d": "center"
+            }
+          }
+        },
+        {
+          "id": "blk_we4myvsya4",
+          "type": "video",
+          "v": 1,
+          "fields": {
+            "source": "embed",
+            "title": "Power With, the spoken word, performed by Sophia Life at the Independent National Convention",
+            "aspect": "16:9",
+            "background": false,
+            "caption": "[YouTube link for the INC performance goes here]",
+            "url": ""
+          },
+          "variant": "cinematic"
+        }
+      ]
+    },
+    {
+      "id": "sec_0rc68t29gt",
+      "label": "The book",
+      "anchor": "book",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            4,
+            8
+          ],
+          "m": [
+            12
+          ]
+        },
+        "align": "center"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "xl",
+          "m": "lg"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_xbzkxj84pr",
+          "type": "image",
+          "v": 1,
+          "column": 0,
+          "fields": {
+            "image": {
+              "alt": "The cover of Power With by Sophia Life",
+              "src": "media/2026/10/book-cover-front-ec7h.jpg"
+            },
+            "aspect": "4:5",
+            "lightbox": false
+          }
+        },
+        {
+          "id": "blk_7kc9th0pjt",
+          "type": "heading",
+          "v": 1,
+          "column": 1,
+          "fields": {
+            "text": "The words come from a book.",
+            "level": "h2",
+            "size": "h2",
+            "eyebrow": "THE BOOK · JANUARY 2027",
+            "subheading": "Power With: The Relational Foundation of Lasting Influence."
+          },
+          "variant": "eyebrow-rule"
+        },
+        {
+          "id": "blk_azv5ya5mys",
+          "type": "text",
+          "v": 1,
+          "column": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "A book for leaders who want strength and closeness held together. Four parts. Ten principles. Each principle closes with a single action you can begin today."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "blk_7qb9h42q31",
+          "type": "button",
+          "v": 1,
+          "column": 1,
+          "fields": {
+            "label": "ABOUT THE BOOK",
+            "link": {
+              "page": "pg_pccta3f6fk",
+              "type": "page"
+            },
+            "role": "primary"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_25nr6rkyst",
+      "preset": "component/pw-author-short@1",
+      "label": "Short author block",
+      "anchor": "author",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "padding": {
+          "d": "none",
+          "m": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_j9vdppgrtn",
+          "type": "component/pw-author-short",
+          "v": 1,
+          "fields": {
+            "body": "Sophia Life is an author, coach and organizational consultant. Power With is the synthesis of more than a decade of study and lived practice.",
+            "ground": "obsidian",
+            "label": "SOPHIA LIFE",
+            "placeholder": "[PORTRAIT]"
+          }
+        }
+      ]
+    }
+  ]
+}

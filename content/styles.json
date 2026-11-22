@@ -1,13 +1,13 @@
 {
   "choices": {
     "palette": {
-      "brand": "#8E4A30",
+      "brand": "#8C5B46",
       "neutral": "warm",
       "contrast": "standard",
       "source": "brand"
     },
-    "pairing": "cormorant-jost",
-    "density": "comfortable",
+    "pairing": "fraunces-hanken",
+    "density": "airy",
     "shape": "sharp",
     "buttons": "solid",
     "motion": "subtle",
@@ -27,7 +27,7 @@
         "weights": [
           400
         ],
-        "italic": true
+        "italic": false
       },
       "label": {
         "family": "Montserrat",
@@ -42,15 +42,15 @@
           "size": 76,
           "sizeMobile": 44,
           "lineHeight": 1.02,
-          "font": "heading",
-          "weight": 500
+          "weight": 500,
+          "font": "heading"
         },
         "h2": {
           "size": 60,
           "sizeMobile": 40,
           "lineHeight": 1.08,
-          "font": "heading",
-          "weight": 500
+          "weight": 500,
+          "font": "heading"
         },
         "body": {
           "size": 21,
@@ -62,22 +62,22 @@
           "size": 34,
           "sizeMobile": 27,
           "lineHeight": 1.2,
-          "font": "heading",
-          "weight": 500
+          "weight": 500,
+          "font": "heading"
         },
         "h4": {
           "size": 30,
           "sizeMobile": 23,
           "lineHeight": 1.25,
-          "font": "heading",
-          "weight": 500
+          "weight": 500,
+          "font": "heading"
         },
         "display": {
           "size": 96,
           "sizeMobile": 58,
           "lineHeight": 1,
-          "font": "heading",
-          "weight": 500
+          "weight": 500,
+          "font": "heading"
         },
         "small": {
           "size": 17,
@@ -86,37 +86,38 @@
           "font": "body"
         },
         "eyebrow": {
-          "font": "label",
           "size": 12,
           "sizeMobile": 11,
           "letterSpacing": 0.3,
-          "case": "uppercase"
+          "case": "uppercase",
+          "font": "label"
         },
         "button": {
-          "font": "label",
           "size": 12,
           "sizeMobile": 12,
           "letterSpacing": 0.22,
-          "case": "uppercase"
+          "case": "uppercase",
+          "font": "label"
         },
         "nav": {
-          "font": "label",
           "size": 12,
           "sizeMobile": 11,
           "letterSpacing": 0.24,
-          "case": "uppercase"
+          "case": "uppercase",
+          "font": "label"
         },
         "wordmark": {
-          "font": "label",
           "size": 14,
           "sizeMobile": 12,
-          "letterSpacing": 0.29,
-          "case": "uppercase"
+          "letterSpacing": 0.32,
+          "case": "uppercase",
+          "font": "label"
         },
         "lead": {
-          "size": 52,
-          "sizeMobile": 34,
-          "lineHeight": 1.25,
+          "size": 34,
+          "sizeMobile": 27,
+          "lineHeight": 1.2,
+          "weight": 500,
           "font": "heading"
         }
       },
@@ -124,45 +125,203 @@
     },
     "layout": {
       "contentWidth": 1200,
+      "narrowWidth": 1000,
       "sectionPadding": 112,
-      "sectionPaddingMobile": 90,
-      "gutterMobile": 20,
+      "sectionPaddingMobile": 56,
       "gutter": 32,
-      "narrowWidth": 1000
+      "gutterMobile": 20
     }
   },
   "overrides": {
     "color": {
       "dark": {
         "heading": {
-          "$type": "color",
-          "$value": "#ede6d8"
+          "$value": "#EDE6D8",
+          "$type": "color"
+        },
+        "accent": {
+          "$value": "#8C5B46",
+          "$type": "color"
+        },
+        "accent-text": {
+          "$value": "#EDE6D8",
+          "$type": "color"
+        },
+        "link": {
+          "$value": "#EDE6D8",
+          "$type": "color"
+        },
+        "surface": {
+          "$value": "#01111D",
+          "$type": "color"
+        },
+        "text": {
+          "$value": "#EDE6D8",
+          "$type": "color"
+        },
+        "text-muted": {
+          "$value": "#BBAFA3",
+          "$type": "color"
+        },
+        "surface-raised": {
+          "$value": "#01111D",
+          "$type": "color"
+        },
+        "background": {
+          "$value": "#01111D",
+          "$type": "color"
+        },
+        "border": {
+          "$value": "#7B8680",
+          "$type": "color"
+        },
+        "focus": {
+          "$value": "#C6A15B",
+          "$type": "color"
         }
       },
       "dark-accent": {
         "text": {
-          "$type": "color",
-          "$value": "#ede6d8"
+          "$value": "#EDE6D8",
+          "$type": "color"
         },
         "heading": {
-          "$type": "color",
-          "$value": "#ede6d8"
+          "$value": "#EDE6D8",
+          "$type": "color"
+        },
+        "accent": {
+          "$value": "#94634d",
+          "$type": "color"
+        },
+        "accent-text": {
+          "$value": "#f9f2e3",
+          "$type": "color"
+        },
+        "surface": {
+          "$value": "#182727",
+          "$type": "color"
+        },
+        "surface-raised": {
+          "$value": "#182727",
+          "$type": "color"
+        },
+        "text-muted": {
+          "$value": "#BBAFA3",
+          "$type": "color"
+        },
+        "background": {
+          "$value": "#182727",
+          "$type": "color"
+        },
+        "border": {
+          "$value": "#7B8680",
+          "$type": "color"
+        },
+        "focus": {
+          "$value": "#C6A15B",
+          "$type": "color"
+        },
+        "link": {
+          "$value": "#EDE6D8",
+          "$type": "color"
         }
       },
       "light-accent": {
         "text": {
-          "$type": "color",
-          "$value": "#0f0e0c"
+          "$value": "#01111D",
+          "$type": "color"
+        },
+        "accent": {
+          "$value": "#01111D",
+          "$type": "color"
+        },
+        "accent-text": {
+          "$value": "#EDE6D8",
+          "$type": "color"
+        },
+        "heading": {
+          "$value": "#01111D",
+          "$type": "color"
+        },
+        "surface": {
+          "$value": "#BBAFA3",
+          "$type": "color"
+        },
+        "background": {
+          "$value": "#BBAFA3",
+          "$type": "color"
+        },
+        "border": {
+          "$value": "#5E3A3C",
+          "$type": "color"
         }
       },
       "brand": {
         "text": {
-          "$type": "color",
-          "$value": "#ede6d8"
+          "$value": "#EDE6D8",
+          "$type": "color"
         },
         "heading": {
-          "$type": "color",
-          "$value": "#ede6d8"
+          "$value": "#EDE6D8",
+          "$type": "color"
+        },
+        "accent": {
+          "$value": "#01111D",
+          "$type": "color"
+        },
+        "accent-text": {
+          "$value": "#EDE6D8",
+          "$type": "color"
+        },
+        "surface": {
+          "$value": "#8C5B46",
+          "$type": "color"
+        },
+        "surface-raised": {
+          "$value": "#8C5B46",
+          "$type": "color"
+        },
+        "border": {
+          "$value": "#EDE6D8",
+          "$type": "color"
+        }
+      },
+      "light": {
+        "accent": {
+          "$value": "#01111D",
+          "$type": "color"
+        },
+        "accent-text": {
+          "$value": "#EDE6D8",
+          "$type": "color"
+        },
+        "heading": {
+          "$value": "#01111D",
+          "$type": "color"
+        },
+        "surface": {
+          "$value": "#E0D9CB",
+          "$type": "color"
+        },
+        "surface-raised": {
+          "$value": "#E0D9CB",
+          "$type": "color"
+        },
+        "text": {
+          "$value": "#01111D",
+          "$type": "color"
+        },
+        "text-muted": {
+          "$value": "#5E3A3C",
+          "$type": "color"
+        },
+        "background": {
+          "$value": "#E0D9CB",
+          "$type": "color"
+        },
+        "border": {
+          "$value": "#BBAFA3",
+          "$type": "color"
         }
       }
     }
